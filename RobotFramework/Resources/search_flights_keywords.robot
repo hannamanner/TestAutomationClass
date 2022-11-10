@@ -1,6 +1,5 @@
 *** Settings ***
-Library         ..//Libraries//SearchFlightPage.py  Chrome
-Library         SeleniumLibrary
+Library                          ..//Libraries//SearchFlightPage.py  Chrome
 
 *** Keywords ***
 Open Home Page
@@ -18,7 +17,7 @@ Search Flights
     Search For Flights
     Sleep  3 s
 Confirm Availability
-    @{flights}=                     Get Found Flights
-    Should Not Be Empty             ${flights}
+    @{flights}=                  Get Found Flights
+    Should Not Be Empty          ${flights}
 Close Home Page
     Close
