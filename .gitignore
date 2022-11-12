@@ -1,2 +1,4 @@
 CarTest/
 RobotFramework/Results/
+.vscode/
+RobotFramework/Libraries/__pycache__/
