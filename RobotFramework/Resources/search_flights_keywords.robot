@@ -3,8 +3,8 @@ Library         ..//Libraries//SearchFlightPage.py  Chrome
 Library         SeleniumLibrary
 
 *** Keywords ***
-Open Home Page
-    Open
+#Open Home Page
+#    Open
 
 Select Departure
     [Arguments]                  ${city1}
