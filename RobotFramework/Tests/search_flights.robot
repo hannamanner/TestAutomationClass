@@ -1,3 +1,5 @@
+# Trying to push this test to Jenkins and see the results there
+
 *** Settings ***
 Force tags        flight_search    hma
 Documentation     Step-by-step example case on https://www.blazemeter.com/blog/robot-framework
